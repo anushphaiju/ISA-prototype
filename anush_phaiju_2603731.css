@@ -1,0 +1,143 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: #85ccf8;
+    color: black;
+}
+.navbar
+{
+    background-color: #369ab8;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+#search-box
+{
+    border-radius: 20px;
+    width:200px;
+    height:40px;
+    margin-top: 30px;
+    align-items: center;
+}
+#searchButton
+{
+    border-radius: 10px;
+    height: 20px;
+    background-color:#fff;
+}
+.temp{
+    background-color: #fff;
+    width:300px;
+    margin: 70px;
+    padding: 20px;
+    border-radius: 60px;
+    position: relative;
+    left:300px;
+}
+.avatar{
+    width:100px;
+    height:100px;
+    border-radius: 30px ;
+    margin: 10px;
+    display: flex;
+    background: #fff;
+}
+.pressure{
+    background-color: #fff;
+    width:300px;
+    margin: 70px;
+    border-radius: 60px;
+    position: relative;
+    top:-30px;
+    left:620px;
+    padding: 20px;
+}
+.ava{
+    width:100px;
+    height:100px;
+    border-radius: 30px ;
+    margin: 10px;
+    display: flex;
+    background: #fff;
+}
+.input-box{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.humidity{
+    background-color: #fff;
+    width:300px;
+    margin: 70px;
+    padding: 20px;
+    border-radius: 60px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top:-280px;
+    left:290px;
+}
+.details{
+    width:100px;
+    height:100px;
+    border-radius: 20px ;
+    margin: 10px;
+    background: #fff;
+}
+.windspeed{
+    background-color: #fff;
+    width:300px;
+    margin: 90px;
+    padding: 20px;
+    border-radius: 40px;
+    position: relative;
+    top:-700px;
+    left:600px;
+}
+.wind{
+    width:100px;
+    height:100px;
+    border-radius: 20px ;
+    margin: 10px;
+    background: #fff;
+}
+.condition{
+    background-color: #fff;
+    width:300px;
+    margin: 90px;
+    padding: 20px;
+    border-radius: 40px;
+    position: relative;
+    top:-600px;
+    left:260px;
+}
+.main{
+    width:100px;
+    height:100px;
+    border-radius: 20px ;
+    margin: 10px;
+    background: #fff;
+}
+.span{
+    background-color: #fff;
+    width:300px;
+    margin: 90px;
+    padding: 20px;
+    border-radius: 40px;
+    position: relative;
+    top:-830px;
+    left:600px;
+}
+.src{
+    width:100px;
+    height:100px;
+    border-radius: 20px ;
+    margin: 10px;
+    background: #fff;
+}
