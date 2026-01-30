@@ -6,7 +6,7 @@
  async function weatherfind(city){
     const result=await result.json()
     console.log(result)
-    const response=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=afce25ec9cbca94dc81f34edc16fd77c`);
+    const response=await fetch(``);
     const data=await response.json();
     console.log(data);
     document.querySelector("#city").innerHTML=data.name;
@@ -23,4 +23,5 @@
   input.addEventListener("click", () => {
    let city = document.getElementById('searchBox').value;
    weatherfind(city);
+
   });
