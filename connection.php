@@ -4,7 +4,7 @@
  $servername="";
  $username="";
  $password= "";
- $dbname=""
+ $dbname="";
  $conn = mysqli_connect($servername, $username, $password, $dbname);
  if(!$conn){
     die(json_encode(["error"=>"Connection failed"]));
