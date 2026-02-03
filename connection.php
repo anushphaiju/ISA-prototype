@@ -1,9 +1,9 @@
  <?php
  header("Access-Control-Allow-Origin:*");
  header('content-Type:application/json');
- $servername="sql101.infintyfree.com";
- $username="if0_41034488";
- $password= "PZrPsOdSnvfyRC";
+ $servername="";
+ $username="";
+ $password= "";
  $dbname=""
  $conn = mysqli_connect($servername, $username, $password, $dbname);
  if(!$conn){
@@ -23,7 +23,7 @@ $selectAlldata="SELECT *FROM cityy WHERE weather='$cityname'";
 $result=mysqli_query($conn,$selectAlldata);
 $result = mysqli_query($conn, $selectAlldata);
 if(mysqli_num_rows( $result ) == 0){
-    $url= "https://anushphaiju.ct.ws/data/2.5/weather?q=$cityname&units=metric&APPID=afce25ec9cbca94dc81f34edc16fd77c";
+    $url= "";
     $response=file_get_contents($url);
     $data=json_decode($response,true);
     $temperature=$data["main"]["temp"];
