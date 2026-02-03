@@ -1,6 +1,6 @@
   async function weatherfind(city) {
     const apiKey = "afce25ec9cbca94dc81f34edc16fd77c";
-    const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+    const apiURL = ``;
     let data;
     if (navigator.onLine) {
         try {
@@ -14,7 +14,7 @@
             console.log("Weather data received:", data);
             localStorage.setItem("lastCity", city);
             localStorage.setItem(city, JSON.stringify(data));
-            const phpURL = `https://anushphaiju.ct.ws/prototypee/connection.php?q=${city}`;
+            const phpURL = ``;
             fetch(phpURL).catch(err => console.warn("PHP not committed", err));
         } catch (error) {
             console.error(" Network Error:", error);
